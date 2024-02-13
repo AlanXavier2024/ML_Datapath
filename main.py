@@ -1,4 +1,4 @@
-import pickle
+import pickle1
 model_loaded = pickle.load(open('./model_saved', 'rb'))
 
 def prediccion_titanic (*args):
